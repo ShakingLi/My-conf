@@ -43,7 +43,7 @@ git clone https://github.com/zsh-users/zsh-completions.git ~/.zsh/plugins/zsh-co
 
 下载[zsh-sudo](https://github.com/hcgraf/zsh-sudo)
 
-```
+```bash
 git clone https://github.com/hcgraf/zsh-sudo.git ~/.zsh/plugins/zsh-sudo
 ```
 
