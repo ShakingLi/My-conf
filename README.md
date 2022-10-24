@@ -23,6 +23,8 @@ sudo pacman -S nodejs
 
 将.zshrc文件放入`~/`
 
+将`zsh`和`zsh-theme-powerlevel10k`文件夹放入`/usr/share/`
+
 安装zsh
 
 ```bash
@@ -32,18 +34,18 @@ sudo pacman -S zsh
 下载[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 ```bash
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/plugins/zsh-syntax-highlighting
+sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /usr/share/zsh/plugins/zsh-syntax-highlighting
 ```
 
 下载[zsh-completions](https://github.com/zsh-users/zsh-completions)
 
 ```bash
-git clone https://github.com/zsh-users/zsh-completions.git ~/.zsh/plugins/zsh-completions
+sudo git clone https://github.com/zsh-users/zsh-completions.git /usr/share/zsh/plugins/zsh-completions
 ```
 
 下载[zsh-sudo](https://github.com/hcgraf/zsh-sudo)
 
 ```bash
-git clone https://github.com/hcgraf/zsh-sudo.git ~/.zsh/plugins/zsh-sudo
+sudo git clone https://github.com/hcgraf/zsh-sudo.git /usr/share/zsh/plugins/zsh-sudo
 ```
 
