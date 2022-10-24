@@ -13,7 +13,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 neovim里使用`:PlugInstall`安装插件
 
-安装nodejs以使用coc.nvim
+安装nodejs以使用[coc.nvim](https://github.com/neoclide/coc.nvim)
 
 ```bash
 sudo pacman -S nodejs
