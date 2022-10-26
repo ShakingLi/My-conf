@@ -6,6 +6,7 @@ set backspace=2
 set mouse=
 "disable mouse
 " let mapleader=" "
+set updatetime=300
 
 imap jk <esc>
 nmap <space> :
@@ -44,7 +45,7 @@ call plug#end()
 "Install coc.nvim Plug
 "CocInstall coc-sh coc-clangd coc-cmake coc-html coc-java coc-json
 "coc-tsserver coc-markdownlint coc-pyright 
-inoremap <silent><expr> <TAB>
+inoremap <silent><expr> `
       \ coc#pum#visible() ? coc#pum#next(1) :
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
